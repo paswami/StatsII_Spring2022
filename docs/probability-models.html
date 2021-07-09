@@ -57,6 +57,7 @@
 
 
 
+<link rel="stylesheet" href="css/bootstrap_buttons.css" type="text/css" />
 </head>
 
 <body>
@@ -94,6 +95,7 @@
 <li class="chapter" data-level="" data-path="sls-multicollinearity.html"><a href="sls-multicollinearity.html"><i class="fa fa-check"></i>12 2SLS, multicollinearity</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
 </ul>
 
       </nav>
@@ -143,8 +145,8 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
@@ -172,7 +174,8 @@ gitbook.start({
 },
 "download": null,
 "toc": {
-"collapse": "section"
+"collapse": "section",
+"scroll_highlight": true
 }
 });
 });
