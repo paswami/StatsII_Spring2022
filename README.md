@@ -1,1 +1,1 @@
-# Applied Statistical Analysis I (Fall 2021)
+# Applied Statistical Analysis II (Spring 2022)
