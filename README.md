@@ -1,1 +1,1 @@
-# StatsII_Spring2022
+# Applied Statistical Analysis I (Fall 2021)
