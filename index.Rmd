@@ -1,7 +1,7 @@
 ---
-title: "Applied Statistical Analysis I"
-author: "Jeffrey Ziegler, Department of Political Science, Trinity College Dublin"
-date: "2021-2022"
+title: "Applied Statistical Analysis II"
+author: "Jeffrey Ziegler, Assistant Professor of Political Science and Data Science, Trinity College Dublin"
+date: "Spring 2022"
 documentclass: book
 site: bookdown::bookdown_site
 bibliography: bibliography.bib
