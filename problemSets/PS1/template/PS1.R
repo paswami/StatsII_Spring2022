@@ -38,8 +38,8 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 #####################
 
 set.seed(123)
-data <- data.frame(x = runif(200, 1, 10))
-data$y <- 0 + 2.75*data$x + rnorm(200, 0, 1.5)
-pdf("data_dist.pdf")
-plot(data$x, data$y)
-dev.off()
+# create empirical distribution of observed data
+ECDF <- ecdf(data)
+empiricalCDF <- ECDF(data)
+# generate test statistic
+D <- max(abs(empiricalCDF - pnorm(data)))
