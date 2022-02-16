@@ -32,10 +32,9 @@ lapply(c(),  pkgTest)
 # set wd for current folder
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-
 #####################
 # Problem 1
 #####################
 
 # load data
-load(url(""))
+load(url("https://github.com/ASDS-TCD/StatsII_Spring2022/blob/main/datasets/climateSupport.RData?raw=true"))
